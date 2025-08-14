@@ -1,19 +1,18 @@
 {
-  "routes": [
+  "functions": {
+    "app/**": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
     {
-      "src": "/sw.js",
-      "continue": true,
+      "source": "/sw.js",
       "headers": {
         "Cache-Control": "public, max-age=0, must-revalidate",
         "Service-Worker-Allowed": "/"
       }
     }
   ],
-  "functions": {
-    "app/**": {
-      "maxDuration": 30
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
