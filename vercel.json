@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "app/**": {
-      "maxDuration": 30
-    }
-  },
   "headers": [
     {
       "source": "/sw.js",
