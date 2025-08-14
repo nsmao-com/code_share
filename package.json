@@ -1,0 +1,51 @@
+{
+  "name": "codeshare",
+  "version": "1.0.0",
+  "description": "专业的代码分享平台，支持多种编程语言和主题，让每一行代码都能被精美地展示和分享",
+  "type": "module",
+  "private": false,
+  "author": {
+    "name": "nsmao.com",
+    "url": "https://www.nsmao.com"
+  },
+  "license": "MIT",
+  "homepage": "https://www.nsmao.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/codeshare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/codeshare/issues"
+  },
+  "keywords": [
+    "code-sharing",
+    "monaco-editor",
+    "nuxt3",
+    "vue3",
+    "typescript",
+    "code-editor",
+    "syntax-highlighting",
+    "code-screenshot",
+    "developer-tools",
+    "programming"
+  ],
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@unocss/nuxt": "^66.4.2",
+    "html2canvas": "^1.4.1",
+    "monaco-editor": "^0.52.2",
+    "nuxt": "^4.0.3",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
